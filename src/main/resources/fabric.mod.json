@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "toolsfortroopers",
+	"version": "${version}",
+	"name": "Tools for Troopers",
+	"description": "shoot",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/toolsfortroopers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tony.toolsfortroopers.ToolsForTroopers"
+		],
+		"fabric-datagen": [
+			"net.tony.toolsfortroopers.ToolsForTroopersDataGenerator"
+		],
+		"client": [
+			"net.tony.toolsfortroopers.ToolsForTroopersClient"
+		]
+	},
+	"mixins": [
+		"toolsfortroopers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
