@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "toolsfortroopers:titanium_block"
+    }
+  ],
+  "result": {
+    "count" : 9,
+    "id": "toolsfortroopers:titanium_ingot"
+  }
+}
